@@ -1,6 +1,6 @@
 <html>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<body background="images/2.png" style="background-repeat:no-repeat;
+<body background="images/3.png" style="background-repeat:no-repeat;
 background-size: 100% 100%">
 <br><br><br><br>
 <div class="container">
@@ -29,9 +29,9 @@ background-size: 100% 100%">
 $firstname=$_POST['firstname'];
 $email=$_POST['email'];
 $servername = "intelli.coghw13fheqo.us-east-2.rds.amazonaws.com";
-$username = "intel";
-$password = "intel123";
-$db = "intel";
+$username = "admin";
+$password = "admin1234";
+$db = "proj3";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
 
